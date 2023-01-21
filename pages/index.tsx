@@ -1,9 +1,11 @@
-import Layouts from '../layouts'
+import Layouts from "../layouts";
 
 export default function Home() {
   return (
     <>
-      <div></div>
+      <Layouts>
+        <div>hello guys</div>
+      </Layouts>
     </>
-  )
+  );
 }
